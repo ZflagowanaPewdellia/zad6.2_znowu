@@ -11,4 +11,4 @@ hello.o: hello.c
 print.o: hello.c
 	gcc -c $^ -I./include
 clean:
-rm -f *.o hello
+	rm -f *.o hello
